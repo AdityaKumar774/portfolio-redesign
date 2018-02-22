@@ -75,7 +75,9 @@ canvas{
 }
 
 /* Data styles */
+
 .header-name{
+  font-family: 'Amarante';
 	font-size: 20px;
 	font-weight: 800;
 	color: aliceblue;
@@ -112,6 +114,7 @@ canvas{
 	padding-left: 100px;
   padding-top: 220px;
   position: absolute;
+  z-index: 1;
 }
 
 @media only screen and (max-width:400px){
@@ -126,6 +129,7 @@ canvas{
 	color: aliceblue;
   position: absolute;
 	padding-left: 500px;
+  z-index: 1;
 }
 
 @media only screen and (max-width:400px){
@@ -184,6 +188,7 @@ i.fa-envelope:hover, i.fa-envelope:active, i.fa-envelope:focus{
   font-weight: 800;
   padding-left: 25px;
   padding-top: 445px;
+  z-index: 1;
 }
 
 @media only screen and (max-width:400px){
