@@ -80,7 +80,7 @@ canvas{
 	font-weight: 800;
 	color: aliceblue;
 	padding-left: 100px;
-	padding-top: 25px;
+	padding-top: 10px;
   position: absolute;
 }
 
@@ -94,7 +94,7 @@ canvas{
 .header-quotes{
 	color: aliceblue;
 	font-weight: 800;
-  padding-top: 100px;
+  padding-top: 90px;
 	padding-left: 100px;
   position: absolute;
 }
@@ -102,7 +102,7 @@ canvas{
 @media only screen and (max-width:400px){
 	.header-quotes{
 		padding-left: 30px;
-    padding-top: 120px;
+    padding-top: 110px;
 	}
 }
 
@@ -117,7 +117,7 @@ canvas{
 @media only screen and (max-width:400px){
 	.resume{
 		padding-left: 30px;
-    padding-top: 240px;
+    padding-top: 230px;
 	}
 }
 
@@ -130,7 +130,7 @@ canvas{
 
 @media only screen and (max-width:400px){
 	.social-icons{
-		padding-top: 270px;
+		padding-top: 260px;
 		padding-left: 25px;
 	}
 }
@@ -174,6 +174,33 @@ i.fa-envelope:hover, i.fa-envelope:active, i.fa-envelope:focus{
 
 @media only screen and (max-width:400px){
   .border{
-    padding-top: 355px;
+    padding-top: 345px;
+  }
+}
+
+.freelance{
+  position: absolute;
+  color: aliceblue;
+  font-weight: 800;
+  padding-left: 25px;
+  padding-top: 445px;
+}
+
+@media only screen and (max-width:400px){
+  .freelance{
+    padding-top: 335px;
+  }
+}
+
+.footer{
+  position: absolute;
+  padding-left: 560px;
+  color: aliceblue;
+  padding-top: 575px;
+}
+
+@media only screen and (max-height:300px){
+  .footer{
+    padding-top: 105px;
   }
 }
