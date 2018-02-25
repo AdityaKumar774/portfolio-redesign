@@ -65,7 +65,8 @@ body{
 	width:100%;
 	height:100%;
 	background: radial-gradient(ellipse at bottom, #9370DB 0%, #8B008B 100%);
-  position: absolute;
+  margin: 0 auto;
+
 }
 
 /* Data styles */
@@ -76,13 +77,13 @@ body{
 	font-weight: 800;
 	color: aliceblue;
 	padding-left: 100px;
-	padding-top: 20px;
+	padding-top: 40px;
   position: absolute;
 }
 
 @media only screen and (max-width:400px){
 	.header-name{
-    padding-top: 0px;
+    padding-top: 10px;
 		padding-left: 20px;
 	}
 }
@@ -90,7 +91,7 @@ body{
 .header-quotes{
 	color: aliceblue;
 	font-weight: 800;
-  padding-top: 90px;
+  padding-top: 140px;
 	padding-left: 100px;
   position: absolute;
 }
@@ -106,7 +107,7 @@ body{
 	font-size: 18px;
 	color: aliceblue;
 	padding-left: 100px;
-  padding-top: 220px;
+  padding-top: 250px;
   position: absolute;
   z-index: 3;
 }
@@ -187,7 +188,7 @@ i.fa-envelope:hover, i.fa-envelope:active, i.fa-envelope:focus{
 
 @media only screen and (max-width:400px){
   .freelance{
-    padding-top: 335px;
+    padding-top: 340px;
     padding-left: 20px;
   }
 }
@@ -195,13 +196,13 @@ i.fa-envelope:hover, i.fa-envelope:active, i.fa-envelope:focus{
 .footer{
   position: absolute;
   padding-left: 560px;
+  padding-top: 585px;
   color: aliceblue;
-  padding-top: 575px;
 }
 
 @media only screen and (max-width:400px){
   .footer{
-    padding-top: 435px;
+    padding-top: 440px;
     padding-left: 30px;
   }
 }
