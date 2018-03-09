@@ -202,7 +202,7 @@ i.fa-envelope:hover, i.fa-envelope:active, i.fa-envelope:focus{
 
 @media only screen and (max-width:400px){
   .footer{
-    padding-top: 440px;
-    padding-left: 30px;
+    padding-top: 450px;
+    padding-left: 35px;
   }
 }
